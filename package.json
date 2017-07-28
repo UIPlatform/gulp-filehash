@@ -1,0 +1,46 @@
+{
+  "name": "gulp-filehash",
+  "description": "Output list of files in current stream to JSON file with their checksum hashes .",
+  "version": "1.0.0",
+  "author": {
+    "name": "Raghavendra K R",
+    "url": "http://krraghavendra.in",
+    "email": "krraghavendra@yahoo.co.in"
+  },
+  "dependencies": {
+    "checksum": "^0.1.1",
+    "gulp-util": "^3.0.7",
+    "path": "^0.12.7",
+    "through2": "^2.0.0",
+    "vinyl": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "homepage": "https://github.com/UIPlatform/gulp-filehash",
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "extension",
+    "absolute",
+    "path",
+    "combine",
+    "json",
+    "hash",
+    "cache",
+    "cachebust"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/UIPlatform/gulp-filehash.git",
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks --require should test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks --require should test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks --require should test/"
+  }
+}
