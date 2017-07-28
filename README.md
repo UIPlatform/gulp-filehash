@@ -3,9 +3,8 @@
 [![NPM Version](https://img.shields.io/npm/v/gulp-filehash.svg?style=flat)](https://www.npmjs.org/package/gulp-filehash)
 [![NPM Downloads](https://img.shields.io/npm/dm/gulp-filehash.svg?style=flat)](https://www.npmjs.org/package/gulp-filehash)
 [![Node.js Version](https://img.shields.io/badge/node.js->=_0.8-brightgreen.svg?style=flat)](http://nodejs.org/download/)
-[![Build Status](http://img.shields.io/travis/cjroth/gulp-filehash.svg?style=flat)](https://travis-ci.org/cjroth/gulp-filehash)
-[![Coverage Status](https://img.shields.io/coveralls/cjroth/gulp-filehash.svg?style=flat)](https://coveralls.io/r/cjroth/gulp-filehash)
-[![Gittip](http://img.shields.io/gittip/cjroth.svg)](https://www.gittip.com/cjroth/)
+[![Build Status](http://img.shields.io/travis/UIPlatform/gulp-filehash.svg?style=flat)](https://travis-ci.org/UIPlatform/gulp-filehash.svg)
+[![codecov](https://codecov.io/gh/UIPlatform/gulp-filehash/branch/master/graph/badge.svg?token=DOoLvegcPi)](https://codecov.io/gh/UIPlatform/gulp-filehash)
 
 #### Output list of files in current stream to JSON file with their checksum hashes .
 
