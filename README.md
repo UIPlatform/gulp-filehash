@@ -14,11 +14,11 @@ Add it to your gulp file:
 ```js
 gulp
   .src(['awesome.file', 'lame.file'])
-  .pipe(require('gulp-filehash')('filelist.json'))
+  .pipe(require('gulp-filehash')('filehash.json'))
   .pipe(gulp.dest('out'))
 ```
 
-Outputs `out/filelist.json`:
+Outputs `out/filehash.json`:
 
 ```json
 {
@@ -40,7 +40,7 @@ $ npm install gulp-filehash
 ```js
 gulp
   .src(['dist/dir1/awesome.file', 'dist/dir2/lame.file'])
-  .pipe(require('gulp-filehash')('filelist.json', { base: 'dist' }))
+  .pipe(require('gulp-filehash')('filehash.json', { base: 'dist' }))
   .pipe(gulp.dest('out'))
 ```
 Outputs:
@@ -56,11 +56,11 @@ Outputs:
 ```js
 gulp
   .src(['awesome.file', 'lame.file'])
-  .pipe(require('gulp-filehash')('filelist.json', { script: true }))
+  .pipe(require('gulp-filehash')('filehash.json', { script: true }))
   .pipe(gulp.dest('out'))
 ```
 
-Outputs `out/filelist.json`:
+Outputs `out/filehash.json`:
 
 ```js
 var fileHashes = {
@@ -74,11 +74,11 @@ var fileHashes = {
 ```js
 gulp
   .src(['awesome.file', 'lame.file'])
-  .pipe(require('gulp-filehash')('filelist.json', { script: 'hashes' }))
+  .pipe(require('gulp-filehash')('filehash.json', { script: 'hashes' }))
   .pipe(gulp.dest('out'))
 ```
 
-Outputs `out/filelist.json`:
+Outputs `out/filehash.json`:
 
 ```js
 var hashes = {
